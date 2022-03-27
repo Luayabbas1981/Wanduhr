@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+}
+.red {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(
+    322deg,
+    rgba(131, 58, 180, 0.8169642857142857) 0%,
+    rgba(253, 29, 29, 0.8561799719887955) 82%
+  );
+  top: 19%;
+  left: 48%;
+  border-radius: 30% 188% 30% 70%;
+  transform: rotate(12deg);
+}
+.green {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(
+    20deg,
+    rgba(57, 5, 168, 0.8) 36%,
+    rgb(245, 159, 47) 84%
+  );
+  top: 43%;
+  left: 33%;
+  border-radius: 122% 55% 52% 64%;
+  transform: rotate(145deg);
+}
+section {
+  position: relative;
+  height: 100vh;
+}
+.frame {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 30%;
+  left: 40%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  transition: 0.7s;
+}
+.zwoelf {
+  position: absolute;
+  width: 3px;
+  height: 25px;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  opacity: 0.4;
+}
+.drei {
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  left: 96%;
+  top: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  opacity: 0.4;
+}
+.sechs {
+  position: absolute;
+  width: 3px;
+  height: 25px;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  opacity: 0.4;
+}
+.neuen {
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  left: 4%;
+  top: 50%;
+  transform: translateX(-50%);
+  background: white;
+  opacity: 0.4;
+}
+
+.wise1 {
+  position: absolute;
+  height: 142px;
+  width: 5px;
+  top: 33px;
+  left: 148px;
+
+  background: linear-gradient(286deg, #673ab7 0%, #1a2997 62%);
+  animation: tic 1800s infinite;
+  animation-timing-function: steps(60);
+  transform-origin: center 84%;
+}
+.wise2 {
+  position: absolute;
+  height: 174px;
+  width: 3px;
+  top: 11px;
+  left: 149px;
+  background: linear-gradient(193deg, rgb(233 30 99 / 73%) 0%, #ff980073 160%);
+  animation: tic 30s infinite;
+  animation-timing-function: steps(60);
+  transform-origin: center 80%;
+}
+
+.center {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+@keyframes tic {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 767px) {
+  .red {
+    width: 160px;
+    height: 130px;
+    top: 27%;
+    transform: rotate(3deg);
+  }
+  .green {
+    width: 150px;
+    height: 160px;
+    top: 48%;
+    left: 20%;
+    transform: rotate(100deg);
+  }
+  .frame {
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 30%;
+  }
+  .wise2 {
+    height: 120px;
+    width: 3px;
+    top: 4px;
+    left: 99px;
+  }
+  .wise1 {
+    height: 110px;
+    width: 4px;
+    top: 8px;
+    left: 98px;
+  }
+  .drei {
+    width: 16px;
+  }
+  .sechs {
+    height: 18px;
+  }
+  .zwoelf {
+    height: 18px;
+  }
+  .neuen {
+    width: 16px;
+  }
+}
