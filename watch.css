@@ -129,21 +129,22 @@ section {
   .red {
     width: 160px;
     height: 130px;
-    top: 27%;
+    top: 22%;
+    left: 43%;
     transform: rotate(3deg);
   }
   .green {
     width: 150px;
     height: 160px;
-    top: 48%;
-    left: 20%;
+    top: 43%;
+    left: 15%;
     transform: rotate(100deg);
   }
   .frame {
     width: 200px;
     height: 200px;
-    top: 35%;
-    left: 30%;
+    top: 30%;
+    left: 25%;
   }
   .wise2 {
     height: 120px;
