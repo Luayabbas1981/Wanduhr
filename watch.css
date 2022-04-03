@@ -10,7 +10,7 @@ body {
   height: 250px;
   background: linear-gradient(
     322deg,
-    rgba(150, 17, 238, 0.817) 0%,
+    rgba(88, 2, 146, 0.817) 30%,
     rgba(248, 1, 1, 0.856) 82%
   );
   top: 19%;
@@ -139,9 +139,9 @@ section {
     transform: rotate(3deg);
   }
   .green {
-    width: 200px;
-    height: 180px;
-    top: 50%;
+    width: 150px;
+    height: 160px;
+    top: 43%;
     left: 15%;
     transform: rotate(100deg);
   }
