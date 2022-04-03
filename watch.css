@@ -1,5 +1,8 @@
 body {
   background-color: black;
+  perspective: 600px;
+  
+
 }
 .red {
   position: absolute;
@@ -32,6 +35,7 @@ body {
 section {
   position: relative;
   height: 100vh;
+  transform: rotateX(25deg);
 }
 .frame {
   position: relative;
@@ -41,7 +45,7 @@ section {
   left: 40%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(3px);
   transition: 0.7s;
   box-shadow: inset -1px -1px 3px white;
 }
@@ -128,15 +132,15 @@ section {
 }
 @media (max-width: 767px) {
   .red {
-    width: 160px;
-    height: 130px;
+    width: 200px;
+    height: 170px;
     top: 22%;
     left: 43%;
     transform: rotate(3deg);
   }
   .green {
-    width: 150px;
-    height: 140px;
+    width: 200px;
+    height: 180px;
     top: 43%;
     left: 15%;
     transform: rotate(100deg);
