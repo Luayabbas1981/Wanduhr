@@ -134,14 +134,14 @@ section {
   .red {
     width: 200px;
     height: 170px;
-    top: 22%;
+    top: 15%;
     left: 43%;
     transform: rotate(3deg);
   }
   .green {
     width: 200px;
     height: 180px;
-    top: 43%;
+    top: 50%;
     left: 15%;
     transform: rotate(100deg);
   }
