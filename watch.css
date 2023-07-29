@@ -11,8 +11,8 @@ body {
   height: 250px;
   background: linear-gradient(
     322deg,
-    rgba(88, 2, 146, 0.817) 30%,
-    rgba(248, 1, 1, 0.856) 82%
+    rgba(0, 174, 255, 0.817) 30%,
+    rgba(240, 248, 1, 0.856) 82%
   );
   top: 19%;
   left: 48%;
@@ -25,8 +25,8 @@ body {
   height: 300px;
   background: linear-gradient(
     20deg,
-    rgba(57, 5, 168, 0.8) 36%,
-    rgb(245, 159, 47) 84%
+    rgba(71, 1, 224, 0.8) 36%,
+    rgb(182, 245, 47) 84%
   );
   top: 43%;
   left: 33%;
@@ -36,7 +36,7 @@ body {
 section {
   position: relative;
   height: 100vh;
-  transform: rotateX(25deg);
+  transform: rotateX(15deg);
 }
 .frame {
   position: relative;
@@ -98,7 +98,7 @@ section {
   top: 33px;
   left: 148px;
 
-  background: linear-gradient(286deg, #673ab7 0%, #1a2997 62%);
+  background: linear-gradient(286deg, #53e211 0%, #1a2997 62%);
   animation: tic 1800s infinite;
   animation-timing-function: steps(60);
   transform-origin: center 84%;
@@ -109,7 +109,7 @@ section {
   width: 3px;
   top: 11px;
   left: 148px;
-  background: linear-gradient(193deg, rgb(233 30 99 / 73%) 0%, #ff980073 160%);
+  background: gold;
   animation: tic 30s infinite;
   animation-timing-function: steps(60);
   transform-origin: center 80%;
